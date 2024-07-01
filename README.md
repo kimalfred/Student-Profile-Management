@@ -1,3 +1,4 @@
+
 ```bash
 venv\scripts\activate //virtual environment
 django-admin startproject django_project.
