@@ -1,3 +1,5 @@
+https://bootswatch.com/
+https://cdnjs.com/libraries/font-awesome
 ## To start Django Project
 ```bash
 venv\scripts\activate //virtual environment
