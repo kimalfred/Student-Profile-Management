@@ -62,13 +62,12 @@
                             <td>{{ student.course }}</td>
                             <td>{{ student.gpa }}</td>
                             <td>
-                              <button type="button" class="btn btn-success me-1" href="{% url 'view_student' student.id %}" data-bs-toggle="modal" data-bs-target="#myModal
-                              {{student.id}}">
+                              <button type="button" class="btn btn-success me-1" href="{% url 'view_student' student.id %}" data-bs-toggle="modal" data-bs-target="#myModal{{student.id}}">
                               <i class="fa-solid fa-circle-info fa-lg" style="color: #ffffff;"></i>
                             </button>
 
                             <!-- Modal - View Student-->
-                            <div class="modal" id="myModal{{student.id}}" tableindex="-1" aria-labelledby="myModalLabel1" aria-hidden="true">
+                            <div class="modal" id="myModal{{student.id}}" tabindex="-1" aria-labelledby="myModalLabel1" aria-hidden="true">
                               <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                   <div class="modal-header">
@@ -95,6 +94,7 @@
                                 </div>
                               </div>
                             </div>
+                            <!-- Modal - View Student-->
                             </td>
                           </tr>
                           {% endfor %}
