@@ -16,8 +16,12 @@ pip install django
 ```
 
 3. Start a new Django project
+<<<<<<< HEAD
    Create a new Django project named django_project:
 
+=======
+Create a new Django project named django_project or any name:
+>>>>>>> 1519c3404ecb13c5cae2134ac132d5e4c237dc1e
 ```bash
 django-admin startproject django_project.
 ```
@@ -43,7 +47,8 @@ python manage.py startapp students
 python manage.py makemigrations
 python manage.py migrate
 ```
-
+7. Create an Admin User to Access the Django Admin Interface
+From the root directory, run:
 ```
 python manage.py createsuperuser
 ```
