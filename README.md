@@ -9,7 +9,7 @@
 -Free Icons (Website from [here](https://fontawesome.com/))
 
 
-### Installation
+## Installation
 
 1. Set up a virtual environment
    First, create and activate a virtual environment:
