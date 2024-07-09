@@ -33,7 +33,7 @@ django-admin startproject django_project.
 python manage.py runserver
 ```
 5. Create a new app
-   Create a new app called students:
+   Create a new app called students or any name:
 ```bash
 python manage.py startapp students
 ```
